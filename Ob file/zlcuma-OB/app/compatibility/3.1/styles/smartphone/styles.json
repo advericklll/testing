@@ -1,0 +1,163 @@
+{
+"BRAND_GRADIENT_LIGHT" : "#C9282D",
+"BRAND_GRADIENT_DARK" : "#9B1F23",
+
+"SECONDARY_LINK_COLOR": "#F2F2F2",
+"SECONDARY_TEXT_COLOR": "#F2F2F2",
+"SUBHEAD_TEXT_COLOR": "#F2F2F2",
+
+"GLOBAL_NAV_HEADER_COLOR_LIGHT" : "#4A4848",
+"GLOBAL_NAV_HEADER_COLOR_DARK" : "#393737",
+"GLOBAL_NAV_BODY_COLOR_LIGHT" : "#4E4C4C",
+"GLOBAL_NAV_BODY_COLOR_DARK" : "#4A4848",
+
+"DEFAULT_BUTTON_TEXT_COLOR": "#000000",
+"DEFAULT_BUTTON_SELECTED_TEXT_COLOR": "#000000",
+
+"BACKGROUND_COLOR": "#6F6D6D",
+
+"SELECTED_FIELD_COLOR" : "#F2C9CB",
+"DEFAULT_LINK_COLOR": "#C9282D",
+
+"ACCOUNT_ACTIVITY_DETAILS_AMOUNT_COLORING": {
+	"enabled" : true,
+	"debitColor" : "#000000",
+	"creditColor" : "#000000"
+},
+
+"ACCOUNT_ACTIVITY_LIST_AMOUNT_COLORING": {
+	"enabled" : true,
+	"debitColor" : "#000000",
+	"creditColor" : "#000000"
+},
+
+"CALENDAR_TODAY_FONT_COLOR" : "#E41A24",
+"CALENDAR_DAY_SELECTED_GRADIENT_LIGHT" : "#B0141C",
+"CALENDAR_DAY_SELECTED_GRADIENT_DARK" : "#E41A24",
+
+"FOOTER_STYLE":{
+    "div": {
+        "color": "#F2F2F2"
+     },
+     "a" : {
+        "color": "#F2F2F2"
+     }
+},
+
+"DETAILS_URL_TEXT_COLOR": "#C9282D",
+
+"ChartStyles" : {
+	"ChartGradients" : [
+	 {
+        "id" : "dailyBalance-start",
+        "type" : "linear",
+        "angle": 0,
+        "stops" : {
+            "0" : {
+                "color": "#B0141C"
+            },
+            "100" : {
+                "color": "#B0141C"
+            }
+        }
+    },
+	{
+        "id" : "dailyBalance-end",
+        "type" : "linear",
+        "angle" : 0,
+        "stops" : {
+            "0" : {
+                "color" : "#E41A24"
+            },
+            "100" : {
+                "color" : "#E41A24"
+            }
+        }
+    },
+    {
+        "id" : "cashFlow-1",
+        "angle": 0,
+        "type": "linear",
+        "stops" : {
+            "1": {
+				"color": "#B0141C"
+            },
+            "5": {
+				"color": "#B0141C"
+            },
+            "100": {
+				"color": "#B0141C"
+            }
+        }
+    },
+   	{
+        "id": "cashFlow-2",
+        "type": "linear",
+        "angle": 0,
+        "stops": {
+            "3": {
+                "color": "#E41A24"
+            },
+            "5": {
+                "color" : "#E41A24"
+            },
+            "100": {
+                "color": "#E41A24"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-1",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1": {
+                "color" : "#B0141C"
+            },
+            "100" : {
+                "color" : "#B0141C"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-2",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1" : {
+				"color": "#E41A24"
+            },
+            "100" : {
+				"color": "#E41A24"
+            }
+        }
+    }
+	],
+	"CreditBalanceChart" : {
+		"textColors" : [
+			"#B0141C",
+			"#E41A24"
+		]
+	},
+	"CashFlowChart" : {
+		"strokeColors" : [
+			"#B0141C", 
+			"#E41A24"
+		]
+	},
+	"DailyBalanceChart" : {
+		"chartStyle" : {
+           	"stroke": "#E41A24",
+           	"fill": "#B0141C"
+		}
+	}
+	
+
+},
+"MESSAGE_CENTER_READ_INDICATOR": {
+	"backgroundColor": "#C9282D"
+},
+"NOTIFICATIONS_CHICKLET": {
+	"backgroundColor": "#C9282D"
+}
+}

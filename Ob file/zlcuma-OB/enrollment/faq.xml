@@ -1,0 +1,155 @@
+<faqs>
+    <group name="General">
+        <faq question="How much does this service cost?"><![CDATA[There is currently no charge associated with the service. However, there may be charges associated with text messaging and data usage on your phone. Check with your wireless phone carrier for more information.]]></faq>
+        <faq question="Is it secure?"><![CDATA[Yes, the mobile banking service utilizes best practices from online banking, such as HTTPS, 128-bit SSL encryption, PIN, or password access and application time-out when your phone is not in use. Only the phones that you personally enroll in the service can access your accounts. In addition, no account data is ever stored on your phone. And in the event your phone is lost or stolen, the service can be immediately disabled by either going to the Mobile Banking enrollment link in Online Banking or calling us. ]]></faq>
+        <faq question="Which wireless carriers are supported?"><![CDATA[We support all the popular US wireless phone carriers, including AT&amp;T, Sprint, T-Mobile, and Verizon. If your carrier is not listed when you enroll, select &#8217;Other&#8217; and try the Mobile Web option, or check back later, as new carriers will be added over time.]]></faq>
+        <faq question="Do I need a text message or data plan?"><![CDATA[Yes, a text messaging and/or data plan is typically needed, as data usage can become expensive without them. Please check with your wireless carrier for more information.]]></faq>
+        <faq question="I&#8217;m not enrolled for online banking. Can I still use this?"><![CDATA[You must first enable your account(s) for online banking before using mobile. ]]></faq>
+        <faq question="What is Activation?"><![CDATA[Activation is a one-time process that helps ensure your security. After you enroll a phone, you will receive an activation code which will be required to begin using Text or Mobile Banking on your device. We recommend you print your activation code and installation instructions for easy reference during installation. ]]></faq>
+    </group>
+    <group name="Mobile Banking">
+        <faq question="What is ${fi.name[encoding=xml]} Mobile Banking?"><![CDATA[ Mobile Banking gives you access to your accounts from your mobile web browser or a downloadable mobile banking application, depending on your preference and your phone capabilities.  Both options allow you to: view account balances, search recent account activity, transfer funds, and find nearest ATM or branch locations.</a>]]></faq>
+		<faq question="How do I access Mobile Banking on my phone&#8217;s browser?"><![CDATA[ After successful activation, your phone will receive a text message with your Mobile Banking URL. You can visit the site at any time at <strong>${fi.mobile.vanity_url}</strong> ]]></faq>
+        <faq question="How do I sign up for Mobile Banking?"><![CDATA[Sign in to Online Banking on your computer and choose the Mobile Banking option. Enroll your mobile phone and follow the activation instructions.]]></faq>
+		<faq question="I activated Mobile Banking on my phone&#8217;s browser. Why am I being asked to activate again?"><![CDATA[At the time of activation, a "cookie" is stored on your phone&#8217;s browser which allows the Mobile Banking system to remember that you activated. The cookie is only visible by the Mobile Banking system and does not contain personal information. Some phones may require you to enable cookies or periodically erase them, requiring reactivation. If you are experiencing this issue, check your phone settings to ensure that cookies are enabled. If cookies are enabled and the issue persists, please contact your mobile network carrier for cookie support information on your mobile phone. If you would like to reactivate, text R or RECOVER to ${fi.sms.short_code}.]]></faq>
+        <faq question="How do I optimize my mobile web experience?"><![CDATA[ We recommend 3 steps for an optimal experience: 1) Ensure your phone&#8217;s browser has cookies enabled. 2) Enable stylesheets on your browser. 3) Bookmark our Mobile Banking site.]]></faq>
+        <faq question="Is Mobile Banking supported on my phone?"><![CDATA[Mobile Banking is supported on most phones with a mobile web browser that supports cookies. In addition, the mobile application is available on many smartphones including Apple and Android devices.  Both mobile web and mobile applications can be found by entering the mobile web URL (<strong>${fi.mobile.vanity_url}</strong>) in your phone&#8217;s browser.]]></faq>
+        <faq question="How do I install the downloadable phone application?"><![CDATA[Listerhill’s downloadable mobile application is available in iTunes&reg; for Apple devices and in Google Play&reg; for Android devices. It is a free app. Alternatively, you can access the app by the following steps:
+				<ul>
+					<li>During activation, your phone will receive a text message from ${fi.sms.short_code}. Select to view (or open) the message (you can also view it later by going to your phone&#8217;s text message inbox).</li>
+					<li>Select the URL link -- ${fi.mobile.vanity_url} -- in the text message. This is typically done by selecting a command on your phone&#8217;s menu, such as "Connect" or "Go To." </li>
+					<li>You will then be brought to a page with a <b>Download</b> link. Click this link to download the application.</li>
+					<li>When finished, you will be notified that the download completed.</li>
+					<li>After launching the application for the first time, you may be asked to give permission to access the data network. You will need to grant permission in order to proceed.</li>
+				</ul>
+			]]></faq>
+			<faq question="Is Mobile Banking supported on my tablet?"><![CDATA[A tablet-optimized Mobile Banking application is available for the iPad.]]></faq>
+			<faq question="How do I install the downloadable iPad application?"><![CDATA[Listerhill’s downloadable mobile application for iPad is available in Apple’s App located on your tablet. It is a free app. Alternatively, you can access the iPad app by the following steps:
+            	<ul>
+					<li>After enrolling with Mobile Banking, you will be provided a link to download the application.</li>
+					<li>If you are using your computer to install the app, click on the link provided on the enrollment page and download the application from the iTunes Store. Then sync your iPad device with iTunes to install the application.</li>
+					<li>If you are using your tablet to enroll with Mobile Banking, simply tap on the link provided and download the application from the App Store.</li>
+				</ul>
+			]]></faq>
+    </group>
+    <group name="Text Banking">
+        <faq question="What is ${fi.name[encoding=xml]} Text Banking?"><![CDATA[ Text banking gives you access to your accounts via text (SMS) messages on your phone. It&#8217;s a fast, easy way to look up account balances or recent account history by sending a text command to a shortcode.]]></faq>
+        <faq question="What is ${fi.name[encoding=xml]} shortcode?"><![CDATA[ All text messages should be sent to <strong>${fi.sms.short_code}</strong>]]></faq>
+        <faq question="Can I use both Text Banking and Mobile Banking on my phone?"><![CDATA[ Yes, you can use both options from the same phone. To do so you will need to activate each option during enrollment. ]]></faq>
+        <faq question="Is Text Banking supported on my phone?"><![CDATA[ Text Banking will work on any text message (SMS) capable phone from one of our supported carriers. ]]></faq>
+        <faq question="Will I receive marketing text messages?"><![CDATA[ No. You will only receive text messages when you specifically request them with one of the Text Banking commands, regarding important mobile or text banking updates, or if you subscribe to Mobile Alerts. ]]></faq>
+        <faq question="What are the Text Banking commands?"><![CDATA[<table width="650" border="0">
+	<table class="devices">
+	<tr>
+		<td><strong>FUNCTION&nbsp;&nbsp;&nbsp;</strong></td>
+		<td><strong>COMMAND&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+		<td><strong>DESCRIPTION</strong></td>
+	</tr>
+	<tr>
+		<td>Balance</td>
+		<td>Bal</td>
+		<td>Summary of available balances for all accounts</td>
+	</tr>
+	<tr>
+		<td>History</td>
+		<td>Hist</td>
+		<td>Summary of recent transactions per account</td>
+	</tr>
+	<tr>
+		<td>Command</td>
+		<td>C</td>
+		<td>List of available Text Banking commands</td>
+	</tr>
+	<tr>
+		<td>Help</td>
+		<td>HE</td>
+		<td>Help content for Text Banking</td>
+	</tr>
+	<tr>
+		<td>Login</td>
+		<td>L</td>
+		<td>Receive a URL for the ${fi.name[encoding=html]} Mobile Browser website (user must first activate their mobile web browser)</td>
+	</tr>
+	<tr>
+		<td>Stop</td>
+		<td>Stop</td>
+		<td>De-activate all ${fi.name[encoding=html]} text services</td>
+	</tr>
+</table>]]>
+<strong>NOTE</strong>: You can check for additional available commands by activating your phone and sending C to ${fi.sms.short_code}.
+</faq>        
+    </group>
+    <group name="Mobile Check Deposit">
+<faq question="What is Mobile Check Deposit?"><![CDATA[Mobile Check Deposit is a convenient, easy way to deposit checks from your mobile device into one of your accounts. With the ${fi.name[encoding=xml]} Mobile Banking app on your Apple or Android device, you can take a photo of your check, enter the check information and securely submit your deposit for processing.]]></faq>
+<faq question="Is there a fee to deposit my check with my mobile phone?"><![CDATA[Mobile Check Deposit is FREE to eligible customers. There may be charges associated with text messaging and data usage on your phone. Check with your wireless phone carrier for more information.]]></faq>
+<faq question="What accounts are required to be eligible for use with Mobile Check Deposit?"><![CDATA[Personal checking and savings accounts are eligible for Mobile Check Deposit.]]></faq>
+<faq question="Where can I find the Deposit tab within my downloaded app?"><![CDATA[All users should first download the latest version of the app from iTunes&reg; or Google Play&reg;.</br></br>Android and iPhone users: After successfully completing the login process, simply tap the global navigation button located in the upper left-hand corner of the application.  Select the “Check Deposit” option to begin your Mobile Deposit.  Only those that are eligible for Mobile Deposit will be able to continue the deposit process after login.</br></br>iPad users: Open the app and complete the login process. Only those that are eligible to use Mobile Deposit will see the Deposit tab at the bottom of the home screen. Select the Deposit icon to begin your Mobile Deposit.]]></faq>
+<faq question="Can I use Mobile Check Deposit with any mobile device?"><![CDATA[Eligible phones include:
+            <ul>
+                <li>iPhone (3G or higher with iOS 6.0 or higher). Older iPhones and devices without a camera are not supported.</li>
+                <li>iPad (2 or higher with iOS 6.0 or higher). iPad Mini is also supported (with iOS 6.0 or higher). Other iPad versions and devices without a camera are not supported.</li>
+				<li>Android (2.2 or higher) with a camera that supports auto focus.</li>
+            </ul></br>
+            You must also download and install the latest version of the ${fi.name[encoding=xml]} Mobile Banking app from iTunes&reg; or Google Play&reg;.]]></faq>
+	<faq question="Are there transaction limits with Mobile Check Deposit?"><![CDATA[Currently, deposits are limited to $5,000 per deposit.]]></faq>
+	<faq question="Are my checks deposited immediately?"><![CDATA[Successfully submitting your check image with your mobile device will begin the deposit process.  However, the processing time to complete the deposit may vary.  Checks $200.00 or less deposited before 2:00 pm CT on a business day (every day except Saturdays, Sundays and federal holidays) are normally available for withdrawal on the first business day after the day of the deposit.  For checks greater than $200.00, the first $200.00 will be available for withdrawal on the first business day after the day of deposit and the remainder on the second business day after the day of deposit.]]></faq>
+	<faq question="How do I view my deposit history?"><![CDATA[
+		<ol>
+                <li> Sign in to the ${fi.name[encoding=xml]} Mobile Banking application.</li>
+				<li> Tap the global navigation button located in the upper left-hand corner of the application.</li>
+				<li> Select the "Check Deposit" option.</li>
+                <li> Select the "Recent" tab and navigate to your check.</li>
+                <li> Click on a single deposit to view the available transaction detail.</li>
+            </ol>]]></faq>
+	<faq question="What should I do with the hard copies of my checks?"><![CDATA[After successfully submitting a deposit with ${fi.name[encoding=xml]} Mobile Check Deposit, it is advisable that you keep all original documents in a safe place for personal records.]]></faq>
+	<faq question="What types of checks are not eligible for Mobile Check Deposit?"><![CDATA[
+		<ul>
+                <li>Checks must be made payable to only you. Joint checks or checks made payable to "Cash" are not allowed.</li>
+                <li>Checks must not be drawn on a foreign bank or payable in a foreign currency.</li>
+                <li>Checks must not be altered on the front of the check in any way.</li>
+                <li>Checks must have an authorized signature. Demand drafts or remotely created checks are not allowed.</li>
+                <li>Checks must not be dated more than six months prior to the date of deposit.</li>
+                <li>Checks must not have previously been returned stop payment or account closed.</li>
+            </ul>]]></faq>
+	<faq question="How do I deposit a check?"><![CDATA[
+		<ul>
+                <li>Your check should have a valid account number and check number.</li>
+                <li>Before you begin, properly endorse your check with your signature. The endorsement should read: "For Mobile Deposit Only".</li>
+                <li>Sign in to Mobile Banking, tap the global navigation button located in the upper left-hand corner of the application, and select the "Check Deposit" option.</li>
+                <li>Select the "Deposit" button (or "New Deposit" for iPad) and navigate to the check deposit screen. You will need to complete the check deposit form in order to submit your deposit request. Note: "Continue" will appear disabled until all required fields are completed.</li>
+                <li>You should make sure your check is placed on a dark, flat, well-lit surface.</li>
+                <li>Select either the "Front" or "Back" camera icon to take a photo of your check.</li>
+                <li>Align the check image with the Camera viewfinder frame. Be sure to take a photo of the check side that matches the helper text: "Front" or "Back" in the viewfinder.</li>
+                <li>Tap the camera icon in the viewfinder to take the picture. If the preview looks correct and in focus, select the "Checkmark" button. If not, simply tap the red "Redo" button and try again.</li>
+                <li>After you have successfully taken the "Front" and "Back" photos of your check, you will see small thumbnail image previews on the check deposit screen.</li>
+                <li>In the "Amount" field, enter the amount of the check you are depositing. Be certain the entered amount matches the amount on the check.</li>
+                <li>Tap the "Deposit To" field to select a deposit eligible account.</li>
+                <li>After all the required fields are completed, the "Continue" button will appear enabled.</li>
+                <li>Enter your email address in the "Email Receipt To" field if you would like to receive an email receipt of your deposit request. Note: This is an optional field.</li>
+                <li>Review your entries and select the "Continue" button to complete the form.</li>
+                <li>Select the "Approve" button to finalize and submit your deposit request.</li>
+            </ul>]]></faq>
+  	</group>
+    <group name="Troubleshooting">
+        <faq question="I enrolled my phone number but did not receive a text message. What should I do?"><![CDATA[ Typically you should receive a text message within a few minutes after enrolling, however sometimes mobile carriers experience delays which slow down text message delivery. While waiting, make sure your phone has wireless signal. In addition, be sure you entered the correct phone number on the enrollment site. If you still do not receive it, try to enroll again. If the problem continues, contact your wireless carrier to be sure text messaging is enabled on your phone.  ]]></faq>
+        <faq question="I received an activation code but never used it. What do I do now?"><![CDATA[ Activation codes expire after a specific period of time (usually 24 hours). If you need a new one, return to the Mobile Banking enrollment site in Online Banking and request a new activation code.]]></faq>
+        <faq question="What happens if I get a new mobile device or change phone numbers?"><![CDATA[ If you get a new mobile device or change phone numbers, be sure to return to Mobile Banking website via your PC and update your mobile device profile in the Mobile Banking enrollment site in Online Banking. We recommend removing your old device and re-enrolling your new device. ]]></faq>   
+        <faq question="Can I use Mobile Banking or Text Banking on more than one device?"><![CDATA[ Yes. Visit the Mobile Banking enrollment site in Online Banking and simply add another device. ]]></faq>       
+        <faq question="I activated Mobile Banking on my phone&#8217;s browser. Why am I being asked to activate again?"><![CDATA[ At the time of activation a "cookie" is stored on your phone&#8217;s browser which allows the Mobile Banking system to remember that you activated. The cookie is only visible by the Mobile Banking system and does not contain personal information. Some phones may require you to enable cookies or periodically erase them, requiring reactivation. If you are experiencing this issue, check your phone settings to ensure that cookies are enabled. If cookies are enabled and the issue persists, please contact your mobile network carrier for cookie support information on your mobile phone. If you would like to reactivate, text R or RECOVER to ${fi.sms.short_code}.]]></faq>        
+        <faq question="What if my device is lost or stolen?"><![CDATA[ If you are concerned about misuse of your phone, contact your mobile service provider immediately to stop all wireless service. Additionally, sign on to online banking and disable or remove your phone. ]]></faq>
+        <faq question="Do I need to re-enroll into mobile banking after I purchase a new phone?"><![CDATA[ Yes. You must re-enroll into mobile banking after you purchase a new phone. Sign in to Online Banking on your computer and under User Services choose the Mobile Enrollment option. Enroll your mobile phone and follow the activation instructions. ]]></faq>   
+		<faq question="Do password reset requirements for Online Banking affect my ability to perform mobile banking functions?"><![CDATA[Yes.  Any change made to your Online Banking username or password applies to your Mobile Banking credentials as well. ]]></faq> 
+		<faq question="BlackBerry Support – Enabling JavaScript"><![CDATA[ Without JavaScript enabled on your BlackBerry, you may not be able to view parts of the mBanking mobile web browser (WAP). Users can manually activate JavaScript. See below for step by step instructions. 
+			<ol>
+				<li>Press the "Menu" button to open the BlackBerry&#8217;s main application menu.</li>
+				<li>Click "Browser" to to open the BlackBerry web browser.</li>
+				<li>Press the "Menu" button again while in the browser.</li>
+				<li>Select "Options" and click "Browser Configuration."</li>
+				<li>Put a check mark next to "Support JavaScript."</li>
+				<li>Press the "Menu" button.</li>
+				<li>Select "Save" to save your settings.</li>
+			</ol> 
+			<strong>Please Note:</strong> In order to use mobile banking you must disable the Blackberry default browser and enable the internet browser. ]]>
+		</faq>        
+    </group>
+</faqs>

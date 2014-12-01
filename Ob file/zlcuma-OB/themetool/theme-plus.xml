@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<themeplus themePlusVersion="3.3.0.51" fiCode="zlcuma" themeVersion="3.3.0.51">
+    <primaryBrandColor>#C9282D</primaryBrandColor>
+    <backgroundColor>#6F6D6D</backgroundColor>
+    <globalNavColor>#4A4848</globalNavColor>
+    <secondaryBrandColor>#E41A24</secondaryBrandColor>
+    <primaryBrandColorLight>#C9282D</primaryBrandColorLight>
+    <primaryBrandColorDark>#9B1F23</primaryBrandColorDark>
+    <globalNavBackgroundColorLight>#4E4C4C</globalNavBackgroundColorLight>
+    <globalNavBackgroundColorDark>#4A4848</globalNavBackgroundColorDark>
+    <globalNavHeaderColorLight>#4A4848</globalNavHeaderColorLight>
+    <globalNavHeaderColorDark>#393737</globalNavHeaderColorDark>
+    <globalNavChickletColor>#C9282D</globalNavChickletColor>
+    <touchActionStateColor>#F2C9CB</touchActionStateColor>
+    <formFieldActiveColor>#C9282D</formFieldActiveColor>
+    <calendarTodayColor>#E41A24</calendarTodayColor>
+    <calendarFillColorLight>#B0141C</calendarFillColorLight>
+    <calendarFillColorDark>#E41A24</calendarFillColorDark>
+    <buttonFillActiveColorLight>#C9282D</buttonFillActiveColorLight>
+    <buttonFillActiveColorDark>#9B1F23</buttonFillActiveColorDark>
+    <messageCenterDotColor>#C9282D</messageCenterDotColor>
+    <footerTextColor>#F2F2F2</footerTextColor>
+    <footerLinkColor>#F2F2F2</footerLinkColor>
+    <textColorOnBackground>#F2F2F2</textColorOnBackground>
+    <textColorOnList>#2d2d2d</textColorOnList>
+    <linkColorOnBackground>#F2C9CB</linkColorOnBackground>
+    <linkColorOnListColor>#C9282D</linkColorOnListColor>
+    <buttonTextColor>#9B1F23</buttonTextColor>
+    <chartColorA>#B0141C</chartColorA>
+    <chartColorB>#E41A24</chartColorB>
+</themeplus>

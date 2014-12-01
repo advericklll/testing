@@ -1,0 +1,167 @@
+{
+"BACKGROUND_COLOR": "#6F6D6D",
+"LIGHT_TEXT": "#F2F2F2", 
+"DARK_TEXT": "#2d2d2d",
+"STANDARD_HEADER_GRADIENT_COLOR_TOP": "#C9282D",
+"STANDARD_HEADER_GRADIENT_COLOR_BOTTOM": "#9B1F23",
+"DASHBOARD_BACKDROP_COLOR": "#6F6D6D",
+"NAV_BAR_GRADIENT_COLOR_TOP": "#4A4848",
+"NAV_BAR_GRADIENT_COLOR_BOTTOM": "#393737",
+"TransactionRowSelected": {
+	"backgroundGradient":{
+		"colors":["#E09094", "#D1595D"]
+	}
+},
+"MultiChoiceAnswerField" : {
+    "answerTableRow": {
+        "selectedBackgroundColor":"#F2C9CB"
+    }
+},
+"DepositAccountTableViewRow" : {
+	"selectedBackgroundColor":"#F2C9CB"
+},
+"FilterTypeSelectorDetailRow" : {
+	"selectedBackgroundColor":"#F2C9CB"
+},
+"BillPayTableViewRow" : {
+	"selectedBackgroundColor":"#F2C9CB"
+},
+"TransferTableViewRow" : {
+	"selectedBackgroundColor":"#F2C9CB"
+},
+"ChartStyles" : {
+	"ChartGradients" : [
+	 {
+        "id" : "dailyBalance-start",
+        "type" : "linear",
+        "angle": 0,
+        "stops" : {
+            "0" : {
+                "color": "#B0141C"
+            },
+            "100" : {
+                "color": "#B0141C"
+            }
+        }
+    },
+	{
+        "id" : "dailyBalance-end",
+        "type" : "linear",
+        "angle" : 0,
+        "stops" : {
+            "0" : {
+                "color" : "#E41A24"
+            },
+            "100" : {
+                "color" : "#E41A24"
+            }
+        }
+    },
+    {
+        "id" : "cashFlow-1",
+        "angle": 0,
+        "type": "linear",
+        "stops" : {
+            "1": {
+				"color": "#B0141C"
+            },
+            "5": {
+				"color": "#B0141C"
+            },
+            "100": {
+				"color": "#B0141C"
+            }
+        }
+    },
+   	{
+        "id": "cashFlow-2",
+        "type": "linear",
+        "angle": 0,
+        "stops": {
+            "3": {
+                "color": "#E41A24"
+            },
+            "5": {
+                "color" : "#E41A24"
+            },
+            "100": {
+                "color": "#E41A24"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-1",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1": {
+                "color" : "#B0141C"
+            },
+            "100" : {
+                "color" : "#B0141C"
+            }
+        }
+    },
+    {
+        "id": "creditBalance-2",
+        "angle": 0,
+        "type": "radial",
+        "stops" : {
+            "1" : {
+				"color": "#E41A24"
+            },
+            "100" : {
+				"color": "#E41A24"
+            }
+        }
+    }
+	],
+	"CreditBalanceChart" : {
+		"textColors" : [
+			"#B0141C",
+			"#E41A24"
+		]
+	},
+	"CashFlowChart" : {
+		"strokeColors" : [
+			"#B0141C", 
+			"#E41A24"
+		]
+	},
+	"DailyBalanceChart" : {
+		"chartStyle" : {
+           	"stroke": "#E41A24",
+           	"fill": "#B0141C"
+		}
+	}
+},
+
+"CustomCreditAndDebitLabelColors": {
+	"TransactionListAmount":{
+		"useColors":true,
+		"credit":{
+			"standard":"#000000",
+			"selected":"#000000"
+		},
+		"debit":{
+			"standard":"#000000",
+			"selected":"#000000"
+		}
+	},
+	"DashboardRecentActivityAmount":{
+		"useColors":true,
+		"credit":"#000000",
+		"debit":"#000000"
+	},
+	"TransactionDetailsAmount":{
+		"useColors":true,
+		"credit":"#000000",
+		"debit":"#000000"
+	}
+},
+
+"MessageCenterReadIndicator": {
+	"backgroundColor": "#C9282D"
+}
+
+}

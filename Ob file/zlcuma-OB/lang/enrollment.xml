@@ -1,0 +1,4 @@
+<properties>
+	<property id="lang.enrollment.mobile_banking_features_list"><![CDATA[<li>Get account balances</li><li>View recent transaction history</li><li>Transfer funds between accounts</li><li>Deposit checks</li><li>Find ATMs and branches</li>]]></property>
+	<property id="comms.rdc.message"><![CDATA[To get started, please include your signature, account number, date, and “For Listerhill Mobile Deposit Only” on the back of each check. Checks $200.00 or less deposited before 2:00 pm CT on a business day (every day except Saturdays, Sundays and federal holidays) are normally available for withdrawal on the first business day after the day of the deposit. For checks greater than $200.00, the first $200.00 will be available for withdrawal on the first business day after the day of deposit and the remainder on the second business day after the day of deposit.]]></property>
+</properties>
